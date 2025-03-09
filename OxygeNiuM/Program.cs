@@ -22,7 +22,7 @@ namespace OxygeNiuM
             client.MessageReceived += CommandsHandler;
             client.Log += Log;
 
-            var token = "YOUR TOKEN";
+            var token = "TOKEN";
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
